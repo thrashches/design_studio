@@ -30,6 +30,7 @@ body {
 .container-small {
     width: 100%;
 }
+
 .flex-wrapper {
     display: flex;
     justify-content: center;
@@ -233,6 +234,10 @@ body {
     padding: 30px;
 }
 
+.card__text>p {
+    color: #959595;
+}
+
 .card__ul {
     color: #959595;
     font-size: 13px;
@@ -370,6 +375,7 @@ body {
         justify-content: flex-start;
         height: 400px;
     }
+
     .large-footer {
         display: flex;
     }
@@ -379,11 +385,13 @@ body {
         background-size: contain;
         background-repeat: no-repeat;
     }
+
     .steps-wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .steps {
         display: flex;
         flex-direction: column;
@@ -398,9 +406,10 @@ body {
         gap: 15px;
     }
 
-    .row{
+    .row {
         gap: 30px;
     }
+
     .steps__item__icon {
         height: 60px;
         width: 60px;
@@ -416,7 +425,7 @@ body {
         color: #FFFFFF;
     }
 
-    .steps__item__text>p{
+    .steps__item__text>p {
         word-wrap: normal;
         max-width: 400px;
     }
@@ -495,6 +504,10 @@ body {
 
     .p-0 {
         padding: 0;
+    }
+
+    .gap-10 {
+        gap: 10px;
     }
 
     .col__upped {
