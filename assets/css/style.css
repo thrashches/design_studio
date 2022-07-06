@@ -276,6 +276,43 @@ body {
     gap: 15px;
 }
 
+.button-dubled {
+    padding: 0;
+    display: flex;
+}
+
+.button-dubled__item {
+    padding: 10px;
+    font-family: 'Yeseva One';
+    font-size: 17px;
+}
+
+.button-dubled__delimiter {
+    height: 100%;
+    width: 1px;
+    background-color: #FFFFFF;
+}
+
+.area {
+    all: unset;
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 32px;
+    width: 32px;
+    background-image: url('../img/svg/area.svg');
+}
+
+.checklist {
+    all: unset;
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 32px;
+    width: 32px;
+    background-image: url('../img/svg/checklist.svg');
+}
+
 .steps-wrapper {
     display: none;
 }
