@@ -263,6 +263,19 @@ body {
     box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
 }
 
+.avatar {
+    height: 76px;
+    width: 76px;
+    border-radius: 50%;
+}
+
+.customer-data {
+    display: flex;
+    height: 78px;
+    align-items: center;
+    gap: 15px;
+}
+
 .steps-wrapper {
     display: none;
 }
