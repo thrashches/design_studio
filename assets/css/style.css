@@ -329,6 +329,16 @@ body {
     display: none;
 }
 
+.question-form-wrapper {
+    width: 100%;
+}
+
+.question-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .col {
     max-width: 30%;
     display: flex;
@@ -617,10 +627,6 @@ body {
         left: 65%;
     }
 
-    .question-form-wrapper {
-        width: 100%;
-    }
-
     .question-form {
         position: absolute;
         bottom: 80%;
@@ -634,6 +640,12 @@ body {
         grid-template-areas: 
             "name phone"
             "question question";
+        gap: 15px;
+    }
+
+    .question-form__button {
+        width: 30%;
+        align-self: center;
     }
 
     .grid-name {

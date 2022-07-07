@@ -5,7 +5,8 @@
     font-size: 1em;
     padding: 1.2em 3em;
     border: none;
-    word-wrap: none;;
+    word-wrap: none;
+    ;
 }
 
 button {
@@ -177,10 +178,10 @@ button:hover {
 .form-name-phone {
     position: relative;
     width: 100%;
-    
+
     display: grid;
     gap: 20px;
-    grid-template-areas: 
+    grid-template-areas:
         "name"
         "phone"
         "accept"
@@ -309,7 +310,7 @@ button:hover {
     transition: .2s;
 }
 
-.checkbox:checked + .checkbox__fake::before {
+.checkbox:checked+.checkbox__fake::before {
     opacity: 1;
 }
 
@@ -317,16 +318,16 @@ button:hover {
     all: unset;
     background-image: url('../img/svg/btn-mail.svg');
     background-size: cover;
-    height: 28px;
-    width: 28px;
+    height: 39px;
+    width: 39px;
 }
 
 .button-instagram {
     all: unset;
     background-image: url('../img/svg/btn-instagram.svg');
     background-size: cover;
-    height: 28px;
-    width: 28px;
+    height: 39px;
+    width: 39px;
 }
 
 @media (min-width: 1000px) {
@@ -399,7 +400,7 @@ button:hover {
     }
 
     .form-name-phone {
-        grid-template-areas: 
+        grid-template-areas:
             "name phone submit"
             "accept accept accept";
     }
@@ -432,5 +433,8 @@ button:hover {
 
     .bw .white {
         color: #363636;
-    };
+    }
+
+    ;
+
 }
