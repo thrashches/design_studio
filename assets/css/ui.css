@@ -313,6 +313,22 @@ button:hover {
     opacity: 1;
 }
 
+.button-mail {
+    all: unset;
+    background-image: url('../img/svg/btn-mail.svg');
+    background-size: cover;
+    height: 28px;
+    width: 28px;
+}
+
+.button-instagram {
+    all: unset;
+    background-image: url('../img/svg/btn-instagram.svg');
+    background-size: cover;
+    height: 28px;
+    width: 28px;
+}
+
 @media (min-width: 1000px) {
     .main-title {
         font-size: 40px;

@@ -194,6 +194,10 @@ body {
     margin-top: 50px;
 }
 
+.mb-50 {
+    margin-bottom: 50px;
+}
+
 .cards {
     width: 100%;
     display: flex;
@@ -334,6 +338,10 @@ body {
     overflow: visible;
 }
 
+.flex-column {
+    flex-direction: column;
+}
+
 .bg-gark {
     background-color: #131313;
 }
@@ -348,6 +356,14 @@ body {
 
 .h-200 {
     height: 200px;
+}
+
+.h-250 {
+    height: 250px;
+}
+
+.h-300 {
+    height: 300px;
 }
 
 .h-400 {
@@ -607,7 +623,7 @@ body {
 
     .question-form {
         position: absolute;
-        bottom: 50%;
+        bottom: 80%;
         left: 25%;
         right: 25%;
         align-self: center;
@@ -630,6 +646,16 @@ body {
 
     .grid-question {
         grid-area: question;
+    }
+
+    .bg-big-house {
+        background-image: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%), url('../img/png/house_bg.png');
+        background-size: cover;
+        position: relative;
+    }
+
+    .mt-300-desktop {
+        margin-top: 300px;
     }
 }
 
