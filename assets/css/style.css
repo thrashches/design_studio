@@ -612,6 +612,25 @@ body {
         right: 25%;
         align-self: center;
     }
+
+    .question-form__grid {
+        display: grid;
+        grid-template-areas: 
+            "name phone"
+            "question question";
+    }
+
+    .grid-name {
+        grid-area: name;
+    }
+
+    .grid-phone {
+        grid-area: phone;
+    }
+
+    .grid-question {
+        grid-area: question;
+    }
 }
 
 @media (min-width: 1400px) {
