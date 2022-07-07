@@ -282,7 +282,7 @@ body {
 }
 
 .button-dubled__item {
-    padding: 10px;
+    padding: 10px 17px;
     font-family: 'Yeseva One';
     font-size: 17px;
 }
@@ -334,6 +334,10 @@ body {
     overflow: visible;
 }
 
+.bg-gark {
+    background-color: #131313;
+}
+
 
 @media (min-width: 576px) {
     .navbar {
@@ -353,7 +357,15 @@ body {
     }
 }
 
+.desktop-only {
+    display: none;
+}
+
 @media (min-width: 1000px) {
+    .desktop-only {
+        display: flex;
+    }
+
     .head-section__buttons {
         flex-direction: row;
     }
@@ -434,6 +446,15 @@ body {
         background-image: url('../img/png/image\ 6.1.png');
         background-size: contain;
         background-repeat: no-repeat;
+    }
+
+    .bg-houses {
+        background-image: url('../img/svg/houses.svg');
+        opacity: 0.05;
+        background-size: contain;
+        background-position: top;
+        background-repeat: repeat-x;
+        height: 100%;
     }
 
     .steps-wrapper {
