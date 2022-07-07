@@ -107,6 +107,12 @@ button:hover {
     position: relative;
 }
 
+.mobile-slider {
+    width: calc(100% - 36px); 
+    position: absolute;
+    bottom: 35%;
+}
+
 .slider__img {
     width: 100%;
     height: auto;

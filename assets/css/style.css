@@ -377,6 +377,10 @@ body {
     flex-direction: column;
 }
 
+.flex-start {
+    justify-content: flex-start;
+}
+
 .bg-gark {
     background-color: #131313;
 }
@@ -430,6 +434,10 @@ body {
 @media (min-width: 1000px) {
     .desktop-only {
         display: flex;
+    }
+
+    .mobile-only {
+        display: none;
     }
 
     .head-section__buttons {
