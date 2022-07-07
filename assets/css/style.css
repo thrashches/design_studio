@@ -164,6 +164,15 @@ body {
     display: none;
 }
 
+.bw-section {
+    padding: 36px 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#FFFFFF 50%, #131313 50%);
+}
+
 .tips {
     /* margin: 18px; */
     width: 100%;
