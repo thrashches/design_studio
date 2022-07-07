@@ -339,6 +339,31 @@ body {
     gap: 20px;
 }
 
+.map-grid {
+    margin-top: 40px;
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+        "map"
+        "title"
+        "buttons";
+}
+
+.map-grid__map {
+    width: 100%;
+    height: auto;
+    grid-area: map;
+}
+
+.map-grid__title {
+    grid-area: title;
+}
+
+.map-grid__buttons {
+    grid-area: buttons;
+}
+
+
 .col {
     max-width: 30%;
     display: flex;
@@ -664,6 +689,13 @@ body {
         background-image: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%), url('../img/png/house_bg.png');
         background-size: cover;
         position: relative;
+    }
+
+    .map-grid {
+        grid-template-areas: 
+            "title"
+            "buttons"
+            "map";
     }
 
     .mt-300-desktop {
